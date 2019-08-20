@@ -1,5 +1,9 @@
+img {
+  width: 100%
+}
+
 .column {
-  width: 300px;
+  width: 25%;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
@@ -11,4 +15,19 @@
 
 .column h4 {
   font-family: sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: auto;
+  }
+  img {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: yellow;
+    font-weight: bold
 }
