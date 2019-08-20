@@ -1,0 +1,10 @@
+.column {
+  width: 300px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.headers {
+  font-family: sans-serif;
+}
