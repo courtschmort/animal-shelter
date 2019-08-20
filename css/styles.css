@@ -5,6 +5,17 @@
   margin-right: 10px;
 }
 
+.column img {
+  object-fit: none;
+  object-position: center;
+  width: 300px;
+  height: 300px;
+}
+
 .headers {
+  font-family: sans-serif;
+}
+
+.column h4 {
   font-family: sans-serif;
 }
